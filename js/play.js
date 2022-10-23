@@ -155,7 +155,7 @@ function release(key) {
     }
 }
 
-function playSheet(string, i = 0) {
+function playSheet(string, i = 0) {//判断同时按多个键
     let delayTime = newDelay[3];
     let group = [];
     if (i >= string.length || stopped) {
